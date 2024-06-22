@@ -1,4 +1,4 @@
-package com.reactnativesample
+package io.vamsi.reactnative
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

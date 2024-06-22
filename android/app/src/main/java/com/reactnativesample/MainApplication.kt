@@ -1,4 +1,4 @@
-package com.reactnativesample
+package io.vamsi.reactnative
 
 import android.app.Application
 import com.facebook.react.PackageList
