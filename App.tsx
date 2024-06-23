@@ -24,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { sendAppInstanceIdToBranch } from './deep_link_manager';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -54,6 +55,8 @@ function Section({children, title}: SectionProps): React.JSX.Element {
     </View>
   );
 }
+
+sendAppInstanceIdToBranch();
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';

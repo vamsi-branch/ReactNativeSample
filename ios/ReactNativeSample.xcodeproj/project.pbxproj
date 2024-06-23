@@ -14,6 +14,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-ReactNativeSample-ReactNativeSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeSample-ReactNativeSampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		88D994292C27F09900D9D0DE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D994282C27F09900D9D0DE /* AdSupport.framework */; };
+		88D9942B2C27F0A600D9D0DE /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D9942A2C27F0A600D9D0DE /* AppTrackingTransparency.framework */; };
+		88D9942D2C27FE9400D9D0DE /* branch.json in Resources */ = {isa = PBXBuildFile; fileRef = 88D9942C2C27FE9400D9D0DE /* branch.json */; };
 		B4401496DEC6336B94EBA08D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4BFB839054EA8791DE5787F6 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,9 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeSample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88D994272C26FF9F00D9D0DE /* ReactNativeSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ReactNativeSample.entitlements; path = ReactNativeSample/ReactNativeSample.entitlements; sourceTree = "<group>"; };
+		88D994282C27F09900D9D0DE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		88D9942A2C27F0A600D9D0DE /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		88D9942C2C27FE9400D9D0DE /* branch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = branch.json; path = ../../../Downloads/branch.json; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeSample-ReactNativeSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeSample-ReactNativeSampleTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeSample-ReactNativeSampleTests/Pods-ReactNativeSample-ReactNativeSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -63,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D9942B2C27F0A600D9D0DE /* AppTrackingTransparency.framework in Frameworks */,
+				88D994292C27F09900D9D0DE /* AdSupport.framework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-ReactNativeSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +101,7 @@
 				88D994272C26FF9F00D9D0DE /* ReactNativeSample.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				88D9942C2C27FE9400D9D0DE /* branch.json */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -106,6 +115,8 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88D9942A2C27F0A600D9D0DE /* AppTrackingTransparency.framework */,
+				88D994282C27F09900D9D0DE /* AdSupport.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeSample.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeSample-ReactNativeSampleTests.a */,
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				88D9942D2C27FE9400D9D0DE /* branch.json in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				B4401496DEC6336B94EBA08D /* PrivacyInfo.xcprivacy in Resources */,
 			);
@@ -276,6 +288,7 @@
 		};
 		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -355,6 +368,7 @@
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
